@@ -21,6 +21,6 @@ jobs:
           curl -L -O "https://drive.usercontent.google.com/download?id=1ix5k9Dv4l6mAR6fSgtISXOCbGj7EZO0Y&export=download&authuser=1&confirm=t&uuid=ce4de02e-b83f-46c6-895d-8e797f9aaa91&at=APZUnTX0z4eItMh_AjHzhh0JxxoF:1724248409195"
           unzip download
           tar -xvzf sysroot.tgz
-          chmod +x ./scripts/build.sh
-          ./scripts/build.sh -k macosx -s macOS -a arm64 -o UTM
+          chmod +x ./scripts/build_utm.sh
+          ./scripts/build_utm.sh -k macosx -s macOS -a arm64 -o UTM
           ls
