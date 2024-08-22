@@ -16,7 +16,7 @@
 
 import Logging
 
-let logger = Logger(label: "com.utmapp.UTM") { label in
+let logger = Logger(label: "com.technodot.UTM") { label in
     var utmLogger = UTMLoggingSwift(label: label)
     var stdOutLogger = StreamLogHandler.standardOutput(label: label)
     #if DEBUG
