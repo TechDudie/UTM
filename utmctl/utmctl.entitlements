@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>$(TeamIdentifierPrefix)$(PRODUCT_BUNDLE_PREFIX:default=com.utmapp).UTM</string>
+		<string>$(TeamIdentifierPrefix)$(PRODUCT_BUNDLE_PREFIX:default=com.technodot).UTM</string>
 	</array>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
@@ -12,9 +12,9 @@
 	<true/>
 	<key>com.apple.security.scripting-targets</key>
 	<dict>
-		<key>$(PRODUCT_BUNDLE_PREFIX:default=com.utmapp).UTM</key>
+		<key>$(PRODUCT_BUNDLE_PREFIX:default=com.technodot).UTM</key>
 		<array>
-			<string>com.utmapp.UTM.vm-access</string>
+			<string>com.utm.UTM.vm-access</string>
 		</array>
 	</dict>
 </dict>
