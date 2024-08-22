@@ -18,7 +18,7 @@ usage () {
     exit 1
 }
 
-PRODUCT_BUNDLE_PREFIX="com.utmapp"
+PRODUCT_BUNDLE_PREFIX="com.technodot"
 TEAM_IDENTIFIER=
 ARCH=arm64
 OUTPUT=$PWD
