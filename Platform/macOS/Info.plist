@@ -15,7 +15,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.utmapp.utm</string>
+				<string>com.technodot.utm</string>
 			</array>
 			<key>LSTypeIsPackageLSTypeIsPackage</key>
 			<true/>
@@ -43,7 +43,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.utmapp.UTM</string>
+			<string>com.technodot.UTM</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>UTM</string>
@@ -71,7 +71,7 @@
 				<string>UTM</string>
 			</dict>
 			<key>UTTypeIdentifier</key>
-			<string>com.utmapp.utm</string>
+			<string>com.technodot.utm</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -82,7 +82,7 @@
 		</dict>
 	</array>
 	<key>AppGroupIdentifier</key>
-	<string>$(TeamIdentifierPrefix:default=invalid.)$(PRODUCT_BUNDLE_PREFIX:default=com.utmapp).UTM</string>
+	<string>$(TeamIdentifierPrefix:default=invalid.)$(PRODUCT_BUNDLE_PREFIX:default=com.technodot).UTM</string>
 	<key>HelperIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_PREFIX:default=com.utmapp).QEMUHelper</string>
 	<key>NSMicrophoneUsageDescription</key>
